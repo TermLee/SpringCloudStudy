@@ -1,0 +1,12 @@
+server:
+  port: 8004
+
+# eureka配置
+eureka:
+  instance:
+    hostname: eureka3
+  client:
+    register-with-eureka: false # 表示是否向注册中心注册自己
+    fetch-registry: false # fetch-registry如果为false，表示自己是注册中心
+    service-url:
+      defaultZone: http://eureka2:8003/eureka/,http://localhost:8002/eureka/
