@@ -18,6 +18,7 @@
         <module>SpringCloud-Provider-8082</module>
         <module>SpringCloud-Feign</module>
         <module>SpringCloud-HyStrix</module>
+        <module>SpringCloud-Hystrix-DashBoard</module>
     </modules>
 
     <!--打包方式-->
