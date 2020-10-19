@@ -14,6 +14,7 @@
         <module name="SpringCloud-Provider-8081" />
         <module name="SpringCloud-Api" />
         <module name="SpringCloud-Feign" />
+        <module name="SpringCloud-HyStrix" />
         <module name="SpringCloud-Consumer" />
       </profile>
     </annotationProcessing>

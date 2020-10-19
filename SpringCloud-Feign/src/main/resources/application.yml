@@ -7,3 +7,7 @@ eureka:
 
     service-url:
       defaultZone: http://localhost:8002/eureka/,http://eureka2:8003/eureka/,http://eureka3:8004/eureka/
+
+feign:
+  hystrix:
+    enabled: true
