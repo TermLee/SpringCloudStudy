@@ -1,0 +1,31 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: springcloud-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8002/eureka/,http://eureka2:8003/eureka/,http://eureka3:8004/eureka/
+  instance:
+    instance-id: zuul9527.com
+    prefer-ip-address: true
+
+info:
+  app.name: TermStudySpringCloud
+  company.name: www.term.com
+  version: 1.2
+
+zuul:
+  # 不让用户使用微服务名字直接访问
+  ignored-services: springcloud-provider
+  routes:
+    mydept.serviceId: springcloud-provider
+    mydept.path: /mydept/**
+
+
+  #设置访问前缀,只有term路径下的地址才能被访问，其他被忽略
+#  ignored-services: "*"
+#  prefix: /term
