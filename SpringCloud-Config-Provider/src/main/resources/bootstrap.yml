@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: springcloud-provider
+      profile: test
+      label: main
+      uri: http://localhost:8008

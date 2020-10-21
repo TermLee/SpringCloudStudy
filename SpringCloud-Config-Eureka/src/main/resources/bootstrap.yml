@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: springcloud-eureka
+      profile: dev
+      uri: http://localhost:8008
+      label: main

@@ -22,6 +22,8 @@
         <module>SpringCloud-Zuul</module>
         <module>SpringCloud-Config</module>
         <module>SpringCloud-Config-Client</module>
+        <module>SpringCloud-Config-Eureka</module>
+        <module>SpringCloud-Config-Provider</module>
     </modules>
 
     <!--打包方式-->
