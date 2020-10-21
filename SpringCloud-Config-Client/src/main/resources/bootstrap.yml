@@ -1,0 +1,9 @@
+#系统级别的配置，可以防止配置冲突
+#application.yml是用户级别的配置
+spring:
+  cloud:
+    config:
+      name: config-client
+      profile: dev
+      uri: http://localhost:8008
+      label: main
