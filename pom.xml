@@ -20,6 +20,7 @@
         <module>SpringCloud-HyStrix</module>
         <module>SpringCloud-Hystrix-DashBoard</module>
         <module>SpringCloud-Zuul</module>
+        <module>SpringCloud-Config</module>
     </modules>
 
     <!--打包方式-->

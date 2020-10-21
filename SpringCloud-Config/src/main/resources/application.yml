@@ -1,0 +1,14 @@
+server:
+  port: 8008
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          # 仓库地址
+          uri: https://github.com/TermLee/springcloud-config
+          # 对应 {label} 部分，即 Git 的分支
+          label: main
+          # 仓库文件夹名称，多个以逗号分隔
+#          search-paths: springcloud-config-git/config-repo
